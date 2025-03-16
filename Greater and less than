@@ -1,0 +1,8 @@
+# Directly compare the arithmetic expressions
+-6 * 5 + 2 >= -10 + 1
+
+# Directly compare the strings
+"raining" <= "raining dogs"
+
+# Directly compare the logical values
+TRUE > FALSE
