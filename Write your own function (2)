@@ -1,0 +1,8 @@
+# Define the function hello()
+hello <- function() {
+  print("Hi there!")  # This line prints the message
+  TRUE               # This line returns TRUE
+}
+
+# Call the function hello()
+hello()
