@@ -1,0 +1,13 @@
+# temp is already defined in the workspace
+
+# Convert to vapply() expression
+sapply(temp, max)
+
+# Convert to vapply() expression
+sapply(temp, function(x, y) { mean(x) > y }, y = 5)
+
+#using vapply with a numeric template
+vapply(temp, max, numeric(1))
+
+#using vapply with a logical template
+vapply(temp, function(x, y) { mean(x) > y }, logical(1), y = 5)
